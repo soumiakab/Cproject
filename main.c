@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+<<<<<<< HEAD
 #include<math.h>
 int ind=4;
 int t1[4], t2[4],s[5];
@@ -80,10 +81,37 @@ int BinToDec(){
     }
     printf("\nla coversion au entier de la somme binaire est; %d",varDecimale);
 
+=======
+
+
+
+
+int sommeBinaire(int a[4],int b[4]){
+	int s[4];
+
+
+
+	return s[4];
+}
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+int decToBin(int varBin){
+	int varDecimale;
+return varDecimale;
+}
+
+int BinToDec(int varBin){
+    int varDecimale=0;
+    for (int i=3;i>=0;i--){
+        varDecimale += s[i]*pow(2,(3-i));
+    }
+    printf("%d",varDecimale);
+>>>>>>> origin/main
   return 0;
 }
 
 int main(int argc, char *argv[]) {
+<<<<<<< HEAD
 	int a,b;
 	printf("donner le premier nombre: ");
 	scanf("%d",&a);
@@ -92,5 +120,8 @@ int main(int argc, char *argv[]) {
 	decToBin(a,b);
 	sommeBinaire();
 	BinToDec();
+=======
+
+>>>>>>> origin/main
 	return 0;
 }
