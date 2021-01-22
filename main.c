@@ -18,8 +18,13 @@ int decToBin(int varBin){
 return varDecimale;	
 }
 
+int binary number ( int Bnumber){
+
+    int Bnumber, decimal_number, reminder;
+
+  return 0;
+}
+
 int main(int argc, char *argv[]) {
-	
-	
 	return 0;
 }
