@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include<math.h>
 int ind=4;
 int t1[4], t2[4],s[5];
 
@@ -56,6 +57,26 @@ void binarynumber ( int Bnumber){
 
 }
 
+
+
+
+
+
+
+
+
+
+int BinToDec(int varBin){
+    int varDecimale=0;
+    for (int i=3;i>=0;i--){
+        varDecimale += s[i]*pow(2,(3-i));
+    }
+    printf("%d",varDecimale);
+
+  return 0;
+}
+
 int main(int argc, char *argv[]) {
+
 	return 0;
 }
