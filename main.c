@@ -2,7 +2,10 @@
 #include <stdlib.h>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> somme
 #include<math.h>
 int ind=4;
 int t1[4], t2[4],s[5];
@@ -126,16 +129,47 @@ int BinToDec(){
     printf("\nla coversion au entier de la somme binaire est; %d",varDecimale);
 
 =======
+<<<<<<< HEAD
     }
     printf("%d",varDecimale);
 >>>>>>> b211e64c4a4542eca141d0bb89980a5ad1f722fa
+=======
+
+
+
+
+int sommeBinaire(int a[4],int b[4]){
+	int s[4];
+
+
+
+	return s[4];
+}
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+int decToBin(int varBin){
+	int varDecimale;
+return varDecimale;
+}
+
+int BinToDec(int varBin){
+    int varDecimale=0;
+    for (int i=3;i>=0;i--){
+        varDecimale += s[i]*pow(2,(3-i));
+    }
+    printf("%d",varDecimale);
+>>>>>>> origin/main
+>>>>>>> somme
   return 0;
 }
 
 int main(int argc, char *argv[]) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> somme
 	int a,b;
 	printf("donner le premier nombre: ");
 	scanf("%d",&a);
@@ -144,9 +178,15 @@ int main(int argc, char *argv[]) {
 	decToBin(a,b);
 	sommeBinaire();
 	BinToDec();
+<<<<<<< HEAD
 >>>>>>> origin/somme
 =======
 
 >>>>>>> b211e64c4a4542eca141d0bb89980a5ad1f722fa
+=======
+=======
+
+>>>>>>> origin/main
+>>>>>>> somme
 	return 0;
 }
