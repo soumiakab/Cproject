@@ -3,8 +3,8 @@
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 int decToBin(int varBin){
-
-return 0;	
+	int varDecimale;
+return varDecimale;	
 }
 
 int main(int argc, char *argv[]) {
