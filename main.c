@@ -6,7 +6,23 @@ int varDecimale;
 
 
 void sommeBinaire(){
-	
+	for(int i=3;i>=0;i--){
+		if((t1[i]+t2[i])==2){
+			t1[i-1]+=1;
+			s[i]=0;
+		}
+		else{
+			if((t1[i]+t2[i])>2){
+			t1[i-1]+=1;
+			s[i]=1;
+			}
+		else{
+			
+				s[i]=t1[i]+t2[i];
+				
+			}
+		}
+	}
 	
 }
 
